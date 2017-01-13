@@ -1,0 +1,143 @@
+
+[
+ {
+ "type": "预期年化收益",
+ "items": [
+           {
+           "id": 1,
+           "item_Title": "收益由高到低"
+           },
+           {
+           "id": 0,
+           "item_Title": "收益由低到高"
+           }]
+ },
+ {
+ "type": "佣金比例",
+ "items": [
+           {
+           "id": 1,
+           "item_Title": "佣金由高到低"
+           },
+           {
+           "id": 0,
+           "item_Title": "佣金由低到高"
+           }]
+ },
+ {
+ "type": "产品状态",
+ "items": [
+           {
+           "id": 1,
+           "item_Title": "预热"
+           },
+           {
+           "id": 2,
+           "item_Title": "在售"
+           },
+           {
+           "id": 3,
+           "item_Title": "已关账"
+           },
+           {
+           "id": 4,
+           "item_Title": "已成立"
+           },
+           {
+           "id": 7,
+           "item_Title": "开放在售"
+           }]
+ },
+ {
+ "type": "紧张标签",
+ "items": [
+           {
+           "id": 10,
+           "item_Title": "畅达"
+           },
+           {
+           "id": 20,
+           "item_Title": "紧张"
+           }]
+ },
+ {
+ "type": "产品期限",
+ "items": [
+           {
+           "id": 10,
+           "item_Title": "1年以下"
+           },
+           {
+           "id": 20,
+           "item_Title": "1年"
+           },
+           {
+           "id": 30,
+           "item_Title": "1-3年"
+           },
+           {
+           "id": 40,
+           "item_Title": "3年以上"
+           }]
+ },
+ {
+ "type": "投资门槛",
+ "items": [
+           {
+           "id": 10,
+           "item_Title": "100万以下"
+           },
+           {
+           "id": 20,
+           "item_Title": "100万"
+           },
+           {
+           "id": 30,
+           "item_Title": "100-300万"
+           },
+           {
+           "id": 40,
+           "item_Title": "300万以上"
+           }]
+ },
+ {
+ "type": "产品类型",
+ "items": [
+           {
+           "id": 6,
+           "item_Title": "资管"
+           },
+           {
+           "id": 7,
+           "item_Title": "契约型基金"
+           },
+           {
+           "id": 25,
+           "item_Title": "私募债券"
+           },
+           {
+           "id": 26,
+           "item_Title": "有限合伙"
+           }]
+ },
+ {
+ "type": "风险等级",
+ "items": [
+           {
+           "id": 10,
+           "item_Title": "低"
+           },
+           {
+           "id": 30,
+           "item_Title": "中"
+           },
+           {
+           "id": 50,
+           "item_Title": "高"
+           }]
+ }
+ ]
+ 
+ 
+
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SortViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="35"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="35"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n4e-Xz-Mgu">
+                        <rect key="frame" x="199" y="7" width="1" height="21"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Wd7-Vi-zHs"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWf-5L-KW5">
+                        <rect key="frame" x="0.0" y="0.0" width="199" height="35"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="收益由高到低">
+                            <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="XWf-5L-KW5" secondAttribute="bottom" id="AQP-Hl-OFK"/>
+                <constraint firstAttribute="trailing" secondItem="XWf-5L-KW5" secondAttribute="trailing" constant="1" id="IF4-cg-hfD"/>
+                <constraint firstItem="XWf-5L-KW5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="UJI-Ve-C8V"/>
+                <constraint firstAttribute="trailing" secondItem="n4e-Xz-Mgu" secondAttribute="trailing" id="aJ1-F8-rn2"/>
+                <constraint firstItem="XWf-5L-KW5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="k32-aW-Hib"/>
+                <constraint firstAttribute="bottom" secondItem="n4e-Xz-Mgu" secondAttribute="bottom" constant="7" id="oJO-Yd-rqL"/>
+                <constraint firstItem="n4e-Xz-Mgu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="7" id="ss9-CT-JqZ"/>
+            </constraints>
+            <connections>
+                <outlet property="contentButton" destination="XWf-5L-KW5" id="PCB-z4-DEu"/>
+                <outlet property="lineView" destination="n4e-Xz-Mgu" id="Ogz-Gl-eyK"/>
+            </connections>
+            <point key="canvasLocation" x="-90" y="35.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

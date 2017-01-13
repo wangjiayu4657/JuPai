@@ -8,6 +8,7 @@
 
 #import "ScreeningView.h"
 #import "UIView+WJYExtension.h"
+#import "ScreenCollectionView.h"
 
 @interface ScreeningView()
 @property (nonatomic,weak) UIView *contentView;
@@ -28,11 +29,15 @@
 
 - (void)setupUI {
     UIView *contentView = [[UIView alloc] init];
-    contentView.frame = CGRectMake(60, 0, self.width - 60, self.height);
+    contentView.frame = CGRectMake(60, 0, self.width - 60, self.height - 60);
     contentView.backgroundColor = [UIColor whiteColor];
+    
+    ScreenCollectionView *collectionView = [[ScreenCollectionView alloc] initWithFrame:contentView.bounds];
+    [contentView addSubview:collectionView];
+    
     [self addSubview:contentView];
     self.contentView = contentView;
-    
+    //动画过度
     [self slideToLeftWithAnimation];
 }
 

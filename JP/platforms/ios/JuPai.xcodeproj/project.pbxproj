@@ -14,6 +14,12 @@
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		75075B281E2886B1003202AD /* OtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75075B271E2886B1003202AD /* OtherCell.m */; };
+		75075B2C1E288759003202AD /* ScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75075B2B1E288759003202AD /* ScreenModel.m */; };
+		75075B2E1E28A252003202AD /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 75075B2D1E28A252003202AD /* data.json */; };
+		75075B311E28CC0F003202AD /* Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 75075B301E28CC0F003202AD /* Items.m */; };
+		75075B341E292ED2003202AD /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75075B331E292ED2003202AD /* BottomView.m */; };
+		75075B361E292EF5003202AD /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75075B351E292EF5003202AD /* BottomView.xib */; };
 		753B3F1E1E236B3000D83C6B /* HomeBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 753B3F181E236B3000D83C6B /* HomeBannerView.m */; };
 		753B3F1F1E236B3000D83C6B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753B3F1A1E236B3000D83C6B /* HomeViewController.m */; };
 		753B3F231E236BB100D83C6B /* FloatingProfitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 753B3F211E236BB100D83C6B /* FloatingProfitCell.m */; };
@@ -50,6 +56,9 @@
 		754DFE311E286B380022B557 /* SunlightPrivateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754DFE281E286B380022B557 /* SunlightPrivateController.m */; };
 		754DFE321E286B380022B557 /* ScreeningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 754DFE2B1E286B380022B557 /* ScreeningView.m */; };
 		754DFE361E286BB40022B557 /* ScreenCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 754DFE351E286BB40022B557 /* ScreenCollectionView.m */; };
+		754DFE3A1E2883B60022B557 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 754DFE391E2883B60022B557 /* HeaderView.m */; };
+		754DFE3E1E28856A0022B557 /* SortViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 754DFE3C1E28856A0022B557 /* SortViewCell.m */; };
+		754DFE3F1E28856A0022B557 /* SortViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754DFE3D1E28856A0022B557 /* SortViewCell.xib */; };
 		75693E0F1E20D6DA00A1656F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75693E021E20D6DA00A1656F /* BaseViewController.m */; };
 		75693E131E20D6DA00A1656F /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75693E0B1E20D6DA00A1656F /* MyViewController.m */; };
 		75693E2A1E20DB9000A1656F /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75693E1D1E20DB9000A1656F /* TAAbstractDotView.m */; };
@@ -146,6 +155,16 @@
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* JuPai-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JuPai-Prefix.pch"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = JuPai/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		75075B261E2886B1003202AD /* OtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherCell.h; sourceTree = "<group>"; };
+		75075B271E2886B1003202AD /* OtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherCell.m; sourceTree = "<group>"; };
+		75075B2A1E288759003202AD /* ScreenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenModel.h; sourceTree = "<group>"; };
+		75075B2B1E288759003202AD /* ScreenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenModel.m; sourceTree = "<group>"; };
+		75075B2D1E28A252003202AD /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		75075B2F1E28CC0F003202AD /* Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Items.h; sourceTree = "<group>"; };
+		75075B301E28CC0F003202AD /* Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Items.m; sourceTree = "<group>"; };
+		75075B321E292ED2003202AD /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
+		75075B331E292ED2003202AD /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		75075B351E292EF5003202AD /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
 		753B3F171E236B3000D83C6B /* HomeBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBannerView.h; sourceTree = "<group>"; };
 		753B3F181E236B3000D83C6B /* HomeBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBannerView.m; sourceTree = "<group>"; };
 		753B3F191E236B3000D83C6B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -213,6 +232,11 @@
 		754DFE2B1E286B380022B557 /* ScreeningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreeningView.m; sourceTree = "<group>"; };
 		754DFE341E286BB40022B557 /* ScreenCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenCollectionView.h; sourceTree = "<group>"; };
 		754DFE351E286BB40022B557 /* ScreenCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenCollectionView.m; sourceTree = "<group>"; };
+		754DFE381E2883B60022B557 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		754DFE391E2883B60022B557 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		754DFE3B1E28856A0022B557 /* SortViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortViewCell.h; sourceTree = "<group>"; };
+		754DFE3C1E28856A0022B557 /* SortViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortViewCell.m; sourceTree = "<group>"; };
+		754DFE3D1E28856A0022B557 /* SortViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SortViewCell.xib; sourceTree = "<group>"; };
 		75693E011E20D6DA00A1656F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		75693E021E20D6DA00A1656F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		75693E0A1E20D6DA00A1656F /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
@@ -462,6 +486,19 @@
 			path = JuPai/Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
+		75075B291E288742003202AD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				75075B2D1E28A252003202AD /* data.json */,
+				75075B2A1E288759003202AD /* ScreenModel.h */,
+				75075B2B1E288759003202AD /* ScreenModel.m */,
+				75075B2F1E28CC0F003202AD /* Items.h */,
+				75075B301E28CC0F003202AD /* Items.m */,
+			);
+			name = model;
+			path = screenModel;
+			sourceTree = "<group>";
+		};
 		753B3F131E236B3000D83C6B /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,6 +612,16 @@
 				754DFE2B1E286B380022B557 /* ScreeningView.m */,
 				754DFE341E286BB40022B557 /* ScreenCollectionView.h */,
 				754DFE351E286BB40022B557 /* ScreenCollectionView.m */,
+				754DFE3B1E28856A0022B557 /* SortViewCell.h */,
+				754DFE3C1E28856A0022B557 /* SortViewCell.m */,
+				754DFE3D1E28856A0022B557 /* SortViewCell.xib */,
+				75075B261E2886B1003202AD /* OtherCell.h */,
+				75075B271E2886B1003202AD /* OtherCell.m */,
+				754DFE381E2883B60022B557 /* HeaderView.h */,
+				754DFE391E2883B60022B557 /* HeaderView.m */,
+				75075B321E292ED2003202AD /* BottomView.h */,
+				75075B331E292ED2003202AD /* BottomView.m */,
+				75075B351E292EF5003202AD /* BottomView.xib */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -602,6 +649,7 @@
 		75693E0C1E20D6DA00A1656F /* Product */ = {
 			isa = PBXGroup;
 			children = (
+				75075B291E288742003202AD /* model */,
 				754DFE1C1E286B380022B557 /* controllers */,
 				754DFE291E286B380022B557 /* views */,
 			);
@@ -917,6 +965,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75075B2E1E28A252003202AD /* data.json in Resources */,
+				754DFE3F1E28856A0022B557 /* SortViewCell.xib in Resources */,
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				753B3F4A1E2483EF00D83C6B /* Info.plist in Resources */,
@@ -926,6 +976,7 @@
 				753B3F5C1E24C95A00D83C6B /* FixedIncomeCell.xib in Resources */,
 				753B3F2E1E236C0E00D83C6B /* InsuranceTableViewCell.xib in Resources */,
 				753B3F291E236BEA00D83C6B /* SunlightPrivateCell.xib in Resources */,
+				75075B361E292EF5003202AD /* BottomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,8 +1007,10 @@
 			files = (
 				75693E9C1E2329D500A1656F /* MJRefreshBackGifFooter.m in Sources */,
 				753B3F691E2500BF00D83C6B /* UIColor+Hex.m in Sources */,
+				75075B2C1E288759003202AD /* ScreenModel.m in Sources */,
 				75693E5D1E20DEB300A1656F /* UIImage+GIF.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				754DFE3E1E28856A0022B557 /* SortViewCell.m in Sources */,
 				75693E2C1E20DB9000A1656F /* TADotView.m in Sources */,
 				75693E2A1E20DB9000A1656F /* TAAbstractDotView.m in Sources */,
 				75693E0F1E20D6DA00A1656F /* BaseViewController.m in Sources */,
@@ -993,10 +1046,12 @@
 				75693E5C1E20DEB300A1656F /* UIButton+WebCache.m in Sources */,
 				75693E981E2329D500A1656F /* MJRefreshHeader.m in Sources */,
 				754DFE321E286B380022B557 /* ScreeningView.m in Sources */,
+				75075B311E28CC0F003202AD /* Items.m in Sources */,
 				75693E5A1E20DEB300A1656F /* SDWebImageManager.m in Sources */,
 				75693EA51E2329D500A1656F /* UIScrollView+MJExtension.m in Sources */,
 				753B3F1E1E236B3000D83C6B /* HomeBannerView.m in Sources */,
 				753B3F1F1E236B3000D83C6B /* HomeViewController.m in Sources */,
+				754DFE3A1E2883B60022B557 /* HeaderView.m in Sources */,
 				754DFE311E286B380022B557 /* SunlightPrivateController.m in Sources */,
 				75693E301E20DB9000A1656F /* UIView+SDExtension.m in Sources */,
 				754DFE2D1E286B380022B557 /* FixedIncomeVController.m in Sources */,
@@ -1021,9 +1076,11 @@
 				753B3F231E236BB100D83C6B /* FloatingProfitCell.m in Sources */,
 				75693E551E20DEB300A1656F /* SDImageCache.m in Sources */,
 				75693E591E20DEB300A1656F /* SDWebImageDownloaderOperation.m in Sources */,
+				75075B341E292ED2003202AD /* BottomView.m in Sources */,
 				75693EA61E2329D500A1656F /* UIScrollView+MJRefresh.m in Sources */,
 				75693ED31E232E7D00A1656F /* AFNetworkActivityIndicatorManager.m in Sources */,
 				75693EA01E2329D500A1656F /* MJRefreshNormalHeader.m in Sources */,
+				75075B281E2886B1003202AD /* OtherCell.m in Sources */,
 				75693E531E20DEB300A1656F /* MKAnnotationView+WebCache.m in Sources */,
 				75693E9A1E2329D500A1656F /* MJRefreshAutoNormalFooter.m in Sources */,
 				75693E5E1E20DEB300A1656F /* UIImage+MultiFormat.m in Sources */,

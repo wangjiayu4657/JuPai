@@ -16,6 +16,7 @@
 #import "ScreeningView.h"
 
 
+
 #define titlesViewHeight 44
 #define titlesViewY 0
 #define Height [UIScreen mainScreen].bounds.size.height
@@ -36,6 +37,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    NSLog(@"%@",[ScreenModel dataSource]);
+    
     self.title = @"产品";
     self.view.backgroundColor = [UIColor colorWithHex:0XF0F0F0];
     UIBarButtonItem *barItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"tabBar_new_icon"] style:UIBarButtonItemStyleDone target:self action:@selector(searchItemClick)];
