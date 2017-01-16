@@ -15,7 +15,7 @@ static NSString * const sortViewCellIdentifier = @"sortViewCellIdentifier";
 
 @interface SortViewCell : UICollectionViewCell
 /** 数据模型 */
-@property (nonatomic,strong)  Items *item;
+@property (nonatomic,strong)  Items *items;
 
 @property (weak, nonatomic) IBOutlet UIView *lineView;
 

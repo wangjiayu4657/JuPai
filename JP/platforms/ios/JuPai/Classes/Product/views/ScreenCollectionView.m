@@ -57,6 +57,7 @@
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, self.width, Height - 60.0) collectionViewLayout:flowLayout];
+    collectionView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     [collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([SortViewCell class]) bundle:nil] forCellWithReuseIdentifier:sortViewCellIdentifier];
     [collectionView registerClass:[OtherCell class] forCellWithReuseIdentifier:otherCellIdentifier];
     [collectionView registerClass:[HeaderView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:headerViewCellIdentifier];
@@ -106,7 +107,7 @@
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     if (indexPath.section == 0 || indexPath.section == 1) {
-        return CGSizeMake((self.width - 2 * (margin + 1)) / 2, 35);
+        return CGSizeMake((self.width - 2 * (margin + 1)) / 2, 21);
     } else {
         return CGSizeMake((self.width - 4 * margin) / 3, 35);
     }
@@ -116,7 +117,10 @@
     return UIEdgeInsetsMake(margin / 2, margin, margin / 2, margin);
 }
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
-    return margin;
+//    if (section == 0 || section == 1) {
+//        return 1;
+//    }
+    return margin ;
 }
 
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section {
@@ -133,8 +137,10 @@
     
     if (indexPath.section == 0 || indexPath.section == 1) {
         SortViewCell *sortCell = [collectionView dequeueReusableCellWithReuseIdentifier:sortViewCellIdentifier forIndexPath:indexPath];
+//        sortCell.backgroundColor = [UIColor orangeColor];
+        model.item.indexPath = indexPath;
         sortCell.lineView.hidden = (indexPath.item != 0);
-        sortCell.item = model.item;
+        sortCell.items = model.item;
         cell = sortCell;
     } else {
         OtherCell *otherCell = [collectionView dequeueReusableCellWithReuseIdentifier:otherCellIdentifier forIndexPath:indexPath];

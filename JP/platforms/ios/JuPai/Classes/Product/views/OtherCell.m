@@ -29,7 +29,7 @@
         [self.contentButton setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
         self.contentButton.titleLabel.font = [UIFont systemFontOfSize:15];
         self.contentButton.layer.borderWidth = 1.0;
-        self.contentButton.layer.borderColor = [UIColor lightGrayColor].CGColor;
+        self.contentButton.layer.borderColor = [UIColor colorWithRed:242.0/255 green:242.0/255 blue:242.0/255 alpha:1.0].CGColor;
         self.contentButton.layer.masksToBounds = YES;
         self.contentButton.layer.cornerRadius = 5.0;
         [self.contentView addSubview:self.contentButton];

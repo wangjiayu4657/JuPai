@@ -10,4 +10,6 @@
 
 @interface ScreeningView : UIView
 
+@property (nonatomic,strong) void(^completed)();
+
 @end

@@ -90,7 +90,7 @@
 }
 
 - (void) download {
-    BOOL loginSuccess = YES;
+    BOOL loginSuccess = NO;
     if (loginSuccess) {
         [self loadData];
     } else {

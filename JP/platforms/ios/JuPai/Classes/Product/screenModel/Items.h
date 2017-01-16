@@ -14,4 +14,7 @@
 
 @property (nonatomic,assign) NSInteger ID;
 
+/** NSIndexPath */
+@property (nonatomic,strong) NSIndexPath *indexPath;
+
 @end

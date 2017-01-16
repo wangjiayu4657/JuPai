@@ -109,7 +109,7 @@
     screenBtn.titleLabel.font = [UIFont systemFontOfSize:15];
     screenBtn.titleLabel.textAlignment = NSTextAlignmentCenter;
     [screenBtn setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
-    [screenBtn addTarget:self action:@selector(screenBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    [screenBtn addTarget:self action:@selector(screenBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     [screeningView addSubview:screenBtn];
     
     [self.view addSubview:screeningView];
@@ -166,12 +166,16 @@
 }
 
 ///筛选按钮
-- (void)screenBtnClick {
+- (void)screenBtnClick:(UIButton *)btn {
     ScreeningView *sView = [[ScreeningView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    sView.completed = ^() {
+        btn.enabled = YES;
+    };
     sView.frame = CGRectMake(0, 110, self.view.width, Height - 110);
-    sView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.7];
+    sView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
     UIWindow *window = [UIApplication sharedApplication].keyWindow;
     [window addSubview:sView];
+    btn.enabled = NO;
 }
 
 ///搜索按钮

@@ -12,7 +12,8 @@
 @interface SortViewCell ()
 
 @property (weak, nonatomic) IBOutlet UIButton *contentButton;
-
+/** <#desciption#> */
+@property (nonatomic,strong) UIButton *selectedButton;
 
 @end
 
@@ -20,14 +21,27 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-
+    
+    [self.contentButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
 }
 
+- (void)setItems:(Items *)items {
+    _items = items;
+    [self.contentButton setTitle:items.item_Title forState:UIControlStateNormal];
+    [self.contentButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+    [self.contentButton setTitleColor:[UIColor orangeColor] forState:UIControlStateDisabled];
+    if(items.indexPath.section == 0 && items.indexPath.item == 0) {
+        NSLog(@"%@",items.indexPath);
+        self.contentButton.enabled = NO;
+        self.selectedButton = self.contentButton;
+    }
+}
 
--(void)setItem:(Items *)item {
-    _item = item;
-    [self.contentButton setTitle:item.item_Title forState:UIControlStateNormal];
-    
+- (void)buttonClick:(UIButton *) btn {
+    self.selectedButton.enabled = YES;
+    btn.enabled = NO;
+    self.selectedButton = btn;
+    NSLog(@"%s",__func__);
 }
 
 @end

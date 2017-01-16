@@ -11,8 +11,10 @@
 #import "ScreenCollectionView.h"
 
 @interface ScreeningView()
+
 @property (nonatomic,weak) UIView *contentView;
 @property (nonatomic,assign)  BOOL isfirst;
+
 @end
 
 @implementation ScreeningView
@@ -34,7 +36,7 @@
     
     ScreenCollectionView *collectionView = [[ScreenCollectionView alloc] initWithFrame:contentView.bounds];
     [contentView addSubview:collectionView];
-    
+
     [self addSubview:contentView];
     self.contentView = contentView;
     //动画过度
@@ -55,6 +57,7 @@
         self.contentView.transform = CGAffineTransformMakeTranslation(self.width, 0);
     } completion:^(BOOL finished) {
         [super removeFromSuperview];
+        self.completed();
     }];
 }
 
