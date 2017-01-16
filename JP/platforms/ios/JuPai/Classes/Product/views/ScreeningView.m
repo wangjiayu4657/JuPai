@@ -31,7 +31,7 @@
 
 - (void)setupUI {
     UIView *contentView = [[UIView alloc] init];
-    contentView.frame = CGRectMake(60, 0, self.width - 60, self.height - 60);
+    contentView.frame = CGRectMake(60, 0, self.width - 60, self.height);
     contentView.backgroundColor = [UIColor whiteColor];
     
     ScreenCollectionView *collectionView = [[ScreenCollectionView alloc] initWithFrame:contentView.bounds];

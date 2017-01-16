@@ -56,7 +56,7 @@
 - (void)setupCollectionView {
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     
-    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, self.width, Height - 60.0) collectionViewLayout:flowLayout];
+    UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, self.width, self.height - 60.0) collectionViewLayout:flowLayout];
     collectionView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
     [collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([SortViewCell class]) bundle:nil] forCellWithReuseIdentifier:sortViewCellIdentifier];
     [collectionView registerClass:[OtherCell class] forCellWithReuseIdentifier:otherCellIdentifier];
@@ -69,7 +69,7 @@
     [self addSubview:collectionView];
     
     UIButton *cancelButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    cancelButton.frame = CGRectMake(0, self.height - 110, self.width / 2, 60);
+    cancelButton.frame = CGRectMake(0, self.height - 60, self.width / 2, 60);
     [cancelButton setTitle:@"取消" forState:UIControlStateNormal];
     [cancelButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
     cancelButton.titleLabel.textAlignment = NSTextAlignmentCenter;
@@ -80,7 +80,7 @@
     [self addSubview: cancelButton];
     
     UIButton *sureButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    sureButton.frame = CGRectMake(self.width / 2, self.height - 110, self.width / 2, 60);
+    sureButton.frame = CGRectMake(self.width / 2, self.height - 60, self.width / 2, 60);
     [sureButton setTitle:@"确定" forState:UIControlStateNormal];
     [sureButton setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
     sureButton.titleLabel.textAlignment = NSTextAlignmentCenter;

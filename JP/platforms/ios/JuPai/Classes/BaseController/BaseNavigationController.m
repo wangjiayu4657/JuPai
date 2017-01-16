@@ -9,6 +9,8 @@
 #import "BaseNavigationController.h"
 #import "UIImage+Utilities.h"
 
+
+
 @interface BaseNavigationController ()
 
 @end
@@ -16,10 +18,13 @@
 @implementation BaseNavigationController
 
 + (void)initialize {
-    UIImage *image = [UIImage imageWithColor:[UIColor colorWithRed:255 / 255.0 green:82 / 255.0 blue:0 / 255.0 alpha:1.0]];
+    UIImage *image = [UIImage imageWithColor:[UIColor colorWithRed:240 / 255.0 green:95 / 255.0 blue:32 / 255.0 alpha:1.0]];
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
     [[UINavigationBar appearance] setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+    //隐藏导航栏下边的横线
+    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
 }
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -20,6 +20,9 @@
 		75075B311E28CC0F003202AD /* Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 75075B301E28CC0F003202AD /* Items.m */; };
 		75075B341E292ED2003202AD /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75075B331E292ED2003202AD /* BottomView.m */; };
 		75075B361E292EF5003202AD /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75075B351E292EF5003202AD /* BottomView.xib */; };
+		75075B3B1E2CB6C3003202AD /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75075B391E2CB6C3003202AD /* MyViewController.m */; };
+		75075B3E1E2CBE29003202AD /* MyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75075B3D1E2CBE29003202AD /* MyHeaderView.m */; };
+		75075B401E2CBE3E003202AD /* MyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75075B3F1E2CBE3E003202AD /* MyHeaderView.xib */; };
 		753B3F1E1E236B3000D83C6B /* HomeBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 753B3F181E236B3000D83C6B /* HomeBannerView.m */; };
 		753B3F1F1E236B3000D83C6B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753B3F1A1E236B3000D83C6B /* HomeViewController.m */; };
 		753B3F231E236BB100D83C6B /* FloatingProfitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 753B3F211E236BB100D83C6B /* FloatingProfitCell.m */; };
@@ -60,7 +63,6 @@
 		754DFE3E1E28856A0022B557 /* SortViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 754DFE3C1E28856A0022B557 /* SortViewCell.m */; };
 		754DFE3F1E28856A0022B557 /* SortViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754DFE3D1E28856A0022B557 /* SortViewCell.xib */; };
 		75693E0F1E20D6DA00A1656F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75693E021E20D6DA00A1656F /* BaseViewController.m */; };
-		75693E131E20D6DA00A1656F /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75693E0B1E20D6DA00A1656F /* MyViewController.m */; };
 		75693E2A1E20DB9000A1656F /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75693E1D1E20DB9000A1656F /* TAAbstractDotView.m */; };
 		75693E2B1E20DB9000A1656F /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75693E1F1E20DB9000A1656F /* TAAnimatedDotView.m */; };
 		75693E2C1E20DB9000A1656F /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75693E211E20DB9000A1656F /* TADotView.m */; };
@@ -165,6 +167,11 @@
 		75075B321E292ED2003202AD /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
 		75075B331E292ED2003202AD /* BottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
 		75075B351E292EF5003202AD /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
+		75075B381E2CB6C3003202AD /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		75075B391E2CB6C3003202AD /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		75075B3C1E2CBE29003202AD /* MyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHeaderView.h; sourceTree = "<group>"; };
+		75075B3D1E2CBE29003202AD /* MyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHeaderView.m; sourceTree = "<group>"; };
+		75075B3F1E2CBE3E003202AD /* MyHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyHeaderView.xib; sourceTree = "<group>"; };
 		753B3F171E236B3000D83C6B /* HomeBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBannerView.h; sourceTree = "<group>"; };
 		753B3F181E236B3000D83C6B /* HomeBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBannerView.m; sourceTree = "<group>"; };
 		753B3F191E236B3000D83C6B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -239,8 +246,6 @@
 		754DFE3D1E28856A0022B557 /* SortViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SortViewCell.xib; sourceTree = "<group>"; };
 		75693E011E20D6DA00A1656F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		75693E021E20D6DA00A1656F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		75693E0A1E20D6DA00A1656F /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
-		75693E0B1E20D6DA00A1656F /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		75693E1C1E20DB9000A1656F /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
 		75693E1D1E20DB9000A1656F /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
 		75693E1E1E20DB9000A1656F /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
@@ -499,6 +504,25 @@
 			path = screenModel;
 			sourceTree = "<group>";
 		};
+		75075B371E2CB6C3003202AD /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				75075B381E2CB6C3003202AD /* MyViewController.h */,
+				75075B391E2CB6C3003202AD /* MyViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		75075B3A1E2CB6C3003202AD /* views */ = {
+			isa = PBXGroup;
+			children = (
+				75075B3C1E2CBE29003202AD /* MyHeaderView.h */,
+				75075B3D1E2CBE29003202AD /* MyHeaderView.m */,
+				75075B3F1E2CBE3E003202AD /* MyHeaderView.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		753B3F131E236B3000D83C6B /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -640,8 +664,8 @@
 		75693E091E20D6DA00A1656F /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				75693E0A1E20D6DA00A1656F /* MyViewController.h */,
-				75693E0B1E20D6DA00A1656F /* MyViewController.m */,
+				75075B371E2CB6C3003202AD /* controllers */,
+				75075B3A1E2CB6C3003202AD /* views */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -976,6 +1000,7 @@
 				753B3F5C1E24C95A00D83C6B /* FixedIncomeCell.xib in Resources */,
 				753B3F2E1E236C0E00D83C6B /* InsuranceTableViewCell.xib in Resources */,
 				753B3F291E236BEA00D83C6B /* SunlightPrivateCell.xib in Resources */,
+				75075B401E2CBE3E003202AD /* MyHeaderView.xib in Resources */,
 				75075B361E292EF5003202AD /* BottomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1064,6 +1089,7 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				75693E2E1E20DB9000A1656F /* SDCollectionViewCell.m in Sources */,
 				75693ED91E232E7D00A1656F /* UIWebView+AFNetworking.m in Sources */,
+				75075B3E1E2CBE29003202AD /* MyHeaderView.m in Sources */,
 				754DFE301E286B380022B557 /* ProductViewController.m in Sources */,
 				75693E991E2329D500A1656F /* MJRefreshAutoGifFooter.m in Sources */,
 				753B3F531E2483EF00D83C6B /* NSObject+MJProperty.m in Sources */,
@@ -1096,9 +1122,9 @@
 				75693E961E2329D500A1656F /* MJRefreshComponent.m in Sources */,
 				753B3FAE1E2605C500D83C6B /* UIView+WJYExtension.m in Sources */,
 				753B3F4F1E2483EF00D83C6B /* MJPropertyType.m in Sources */,
-				75693E131E20D6DA00A1656F /* MyViewController.m in Sources */,
 				75693E2B1E20DB9000A1656F /* TAAnimatedDotView.m in Sources */,
 				753B3F321E2374E800D83C6B /* ProductModel.m in Sources */,
+				75075B3B1E2CB6C3003202AD /* MyViewController.m in Sources */,
 				75693EBA1E232E6D00A1656F /* AFURLResponseSerialization.m in Sources */,
 				754DFE2F1E286B380022B557 /* InsuranceController.m in Sources */,
 				75693ED61E232E7D00A1656F /* UIImageView+AFNetworking.m in Sources */,
