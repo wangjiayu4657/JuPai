@@ -56,7 +56,7 @@
     titlesView.width = self.view.width;
     titlesView.height = titlesViewHeight;
     titlesView.y = titlesViewY;
-    titlesView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.85];
+    titlesView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:1.0];
     [self.view addSubview:titlesView];
     self.titlesView = titlesView;
     

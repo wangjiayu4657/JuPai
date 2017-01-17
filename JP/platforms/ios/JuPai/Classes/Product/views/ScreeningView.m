@@ -22,6 +22,7 @@
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
+//    NSLog(@"%@",NSStringFromCGRect(frame));
     if (self) {
         self.isfirst = NO;
         [self setupUI];
@@ -33,7 +34,7 @@
     UIView *contentView = [[UIView alloc] init];
     contentView.frame = CGRectMake(60, 0, self.width - 60, self.height);
     contentView.backgroundColor = [UIColor whiteColor];
-    
+//    NSLog(@"contentView = %@",NSStringFromCGRect(contentView.frame));
     ScreenCollectionView *collectionView = [[ScreenCollectionView alloc] initWithFrame:contentView.bounds];
     [contentView addSubview:collectionView];
 
